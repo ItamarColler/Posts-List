@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: 295px;
+  float: left;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  padding: 8px 0;
+}
+
+.title-container {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-right: 8px;
+}
+
+.title-main {
+  float: left;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.description {
+  float: right;
+  font-size: smaller;
+  background-color: rgba(206, 163, 252, 0.1);
+  color: rgb(126, 22, 224);
+  border-radius: 40px;
+  padding: 5px 10px;
+}
+
+.subtitles {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  text-decoration: darkgray;
+}
