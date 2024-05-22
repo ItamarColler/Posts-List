@@ -3,7 +3,6 @@ import Post from "./post.interface";
 import "./post.css";
 
 const PostComponent: React.FC<Post> = ({ title, totalComments }: Post) => {
-  //   console.log(title, totalComments);
   return (
     <div className="post-info">
       <div className="title" title={title}>
